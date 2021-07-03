@@ -9,7 +9,8 @@
     "style": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
     "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
     "test": "jest",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "jest:clear-cache": "jest --clearCache"
   },
   "keywords": [
     "nodejs",
