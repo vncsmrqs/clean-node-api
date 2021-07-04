@@ -8,8 +8,8 @@
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
     "style": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
     "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests",
     "jest:clear-cache": "jest --clearCache"
   },
   "keywords": [
